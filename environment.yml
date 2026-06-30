@@ -1,0 +1,38 @@
+# conda env file for ASASR
+# Create with:  conda env create -f environment.yml
+# Activate :    conda activate asasr
+#
+# Note: this mirrors the dev environment used in the paper (python 3.10 + cuda 11.8).
+# If your CUDA version differs, install the matching torch wheel from
+# https://pytorch.org/get-started/locally/ and remove the explicit torch line below.
+name: asasr
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.1.*
+  - torchvision
+  - pytorch-cuda=11.8
+  - pip:
+      - diffusers>=0.30
+      - transformers>=4.40
+      - accelerate>=0.30
+      - peft>=0.11
+      - safetensors
+      - huggingface_hub
+      - datasets>=2.18
+      - numpy
+      - Pillow
+      - tqdm
+      - pyyaml
+      - packaging
+      - opencv-python
+      - scikit-image
+      - einops
+      - pyiqa
+      - basicsr
+      - wandb

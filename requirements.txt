@@ -1,0 +1,31 @@
+# Core
+torch>=2.1
+torchvision>=0.16
+numpy
+Pillow
+tqdm
+pyyaml
+packaging
+
+# Diffusion stack
+diffusers>=0.30
+transformers>=4.40
+accelerate>=0.30
+peft>=0.11
+safetensors
+huggingface_hub
+datasets>=2.18
+
+# Image / IO
+opencv-python
+scikit-image
+einops
+
+# Quality metrics
+pyiqa
+
+# Data prep (RealESRGAN-style degradation, used by tools/make_paired_data.py)
+basicsr
+
+# Optional logging
+wandb

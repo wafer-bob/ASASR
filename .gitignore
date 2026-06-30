@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Caches
+.cache/
+.hf_cache/
+
+# Outputs (training / inference / eval artifacts)
+outputs/
+results/
+results_*/
+logs/
+*.log
+
+# User data
+data/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Pretrained weights — all exceed GitHub's 100 MB/file limit, so they are NOT
+# committed here. Download them from the release (HuggingFace) into checkpoints/
+# as described in README §2, or use Git LFS if you fork and want to host them.
+checkpoints/**/*.safetensors
+checkpoints/**/*.bin
+checkpoints/**/*.pt
+# keep the directory layout + adapter_config.json so paths exist after clone
+!checkpoints/**/adapter_config.json
+
+# wandb
+wandb/
