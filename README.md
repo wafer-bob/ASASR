@@ -1,5 +1,7 @@
 # [ASASR] Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super-Resolution
 
+[![🤗 Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Live-ff9d00.svg)](https://huggingface.co/spaces/hugging-apps/asasr-super-resolution)
+[![🤗 Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-wafer--bob%2FASASR-yellow.svg)](https://huggingface.co/wafer-bob/ASASR)
 [![arXiv](https://img.shields.io/badge/arXiv-2605.23264-b31b1b.svg)](https://arxiv.org/abs/2605.23264)
 [![ICML 2026](https://img.shields.io/badge/ICML-2026-blue.svg)](https://icml.cc/)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)](https://www.python.org/)
@@ -10,6 +12,12 @@ Official implementation of the ICML 2026 paper:
 > Hongbo Wang, Huaibo Huang, Pin Wang, Jinhua Hao, Chao Zhou, Ran He
 > *International Conference on Machine Learning (ICML), 2026*
 > [[arXiv:2605.23264]](https://arxiv.org/abs/2605.23264)
+
+## News
+
+- **2026-07-07** — 📌 Poster session at **ICML 2026, Seoul**: Tue, Jul 7, 10:30 AM–12:15 PM KST, **Hall A #1100**. I'll be there in person — come by to chat!
+- **2026-07-04** — 🤗 Online demo released: [try ASASR on HuggingFace Spaces](https://huggingface.co/spaces/hugging-apps/asasr-super-resolution).
+- **2026-06-30** — Code and pretrained weights released.
 
 <p align="center">
   <img src="assets/Expr_SOTA.png" alt="Qualitative comparison against state-of-the-art methods" width="95%">
@@ -27,6 +35,20 @@ Official implementation of the ICML 2026 paper:
 - 📐 **Sobolev-Induced Geometry** — reformulates the generative flow under a Riemannian metric that respects high-frequency structure (Sobolev frequency-weighted DPO, "S-DPO").
 - ⚔️ **Adversarial Manifold Guidance (AMG)** — a Riesz-representation-based adversary network produces worst-case, spatially-aligned hard negatives for preference optimization ("AS-DPO").
 - 🖼️ **Faithful Super-Resolution** — built on **FLUX.1-dev** with dual-LoRA inference (SR prior + DPO refinement); strong improvements in spectral consistency, structural fidelity, and artifact suppression.
+
+---
+
+## Online Demo
+
+Try ASASR directly in your browser — no setup required:
+**[🤗 ASASR Super-Resolution on HuggingFace Spaces](https://huggingface.co/spaces/hugging-apps/asasr-super-resolution)**
+
+Upload a low-resolution image (or pick an example), and the demo runs the FLUX.1-dev
+dual-LoRA pipeline to produce a faithful ×4 (512×512) reconstruction. It uses the same
+weights hosted at [wafer-bob/ASASR](https://huggingface.co/wafer-bob/ASASR).
+
+The demo was kindly built and hosted by the open-source team at Hugging Face — we thank
+them for their help. The Space is maintained independently of this repository.
 
 ---
 
