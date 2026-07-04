@@ -1,10 +1,10 @@
 # [ASASR] Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super-Resolution
 
-[![🤗 Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Live-ff9d00.svg)](https://huggingface.co/spaces/hugging-apps/asasr-super-resolution)
-[![🤗 Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-wafer--bob%2FASASR-yellow.svg)](https://huggingface.co/wafer-bob/ASASR)
 [![arXiv](https://img.shields.io/badge/arXiv-2605.23264-b31b1b.svg)](https://arxiv.org/abs/2605.23264)
 [![ICML 2026](https://img.shields.io/badge/ICML-2026-blue.svg)](https://icml.cc/)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)](https://www.python.org/)
+[![🤗 Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Live-ff9d00.svg)](https://huggingface.co/spaces/hugging-apps/asasr-super-resolution)
+[![🤗 Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-wafer--bob%2FASASR-yellow.svg)](https://huggingface.co/wafer-bob/ASASR)
 
 Official implementation of the ICML 2026 paper:
 
