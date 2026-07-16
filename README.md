@@ -5,7 +5,7 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)](https://www.python.org/)
 [![🤗 Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Live-ff9d00.svg)](https://huggingface.co/spaces/hugging-apps/asasr-super-resolution)
 [![🤗 Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-wafer--bob%2FASASR-yellow.svg)](https://huggingface.co/wafer-bob/ASASR)
-[![PwC SOTA](https://img.shields.io/badge/Papers%20with%20Code-SOTA%20on%20DIV2K--Val-21cbce.svg)](https://paperswithcode.com/paper/2605.23264)
+[![PwC SOTA](https://img.shields.io/badge/Papers%20with%20Code-SOTA%20on%20DIV2K--Val-21cbce.svg)](https://paperswithcode.co/paper/2605.23264)
 
 Official implementation of the ICML 2026 paper:
 
@@ -16,7 +16,7 @@ Official implementation of the ICML 2026 paper:
 
 ## News
 
-- **2026-07-16** — 🏆 ASASR is now indexed on [Papers with Code](https://paperswithcode.com/paper/2605.23264): ranked **SOTA on DIV2K-Val (Real-ESRGAN ×4)** and **#3 on RealSR**!
+- **2026-07-16** — 🏆 ASASR is now indexed on [Papers with Code](https://paperswithcode.co/paper/2605.23264): ranked **SOTA on DIV2K-Val (Real-ESRGAN ×4)** and **#3 on RealSR**!
 - **2026-07-07** — 📌 Poster session at **ICML 2026, Seoul**: Tue, Jul 7, 10:30 AM–12:15 PM KST, **Hall A #1100**. I'll be there in person — come by to chat!
 - **2026-07-04** — 🤗 Online demo released: [try ASASR on HuggingFace Spaces](https://huggingface.co/spaces/hugging-apps/asasr-super-resolution).
 - **2026-06-30** — Code and pretrained weights released.
