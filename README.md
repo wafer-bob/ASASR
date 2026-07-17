@@ -5,7 +5,7 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)](https://www.python.org/)
 [![🤗 Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Live-ff9d00.svg)](https://huggingface.co/spaces/hugging-apps/asasr-super-resolution)
 [![🤗 Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-wafer--bob%2FASASR-yellow.svg)](https://huggingface.co/wafer-bob/ASASR)
-[![PwC SOTA](https://img.shields.io/badge/Papers%20with%20Code-SOTA%20on%20DIV2K--Val-21cbce.svg)](https://paperswithcode.co/paper/2605.23264)
+[![PwC](https://img.shields.io/badge/PwC-SOTA%20on%20DIV2K-21cbce.svg)](https://paperswithcode.co/benchmark/div2k-val-real-esrgan-x4?task=image-super-resolution&eval=12885)
 
 Official implementation of the ICML 2026 paper:
 
